@@ -101,8 +101,8 @@
                     </execution>
                 </executions>
                 <configuration>
-                    <compress>false</compress>
                     <append>true</append>
+                    <compress>true</compress>
                     <publishArtifacts>true</publishArtifacts>
                 </configuration>
             </plugin>
@@ -116,7 +116,7 @@
                 <version>${tycho.version}</version>
                 <executions>
                     <execution>
-                        <phase>prepare-package</phase>
+                        <phase>package</phase>
                         <goals>
                             <goal>category-p2-metadata</goal>
                         </goals>
@@ -142,6 +142,9 @@
                         </goals>
                         <configuration>
                             <target name="Copy P2 Repository">
+                                <delete includeEmptyDirs="true">
+                                    <fileset dir="${project.basedir}/docs/${project.version}"/>
+                                </delete>
                                 <mkdir dir="${project.basedir}/docs/${project.version}"/>
                                 <copy todir="${project.basedir}/docs/${project.version}">
                                     <fileset dir="${project.basedir}/target/repository"/>
