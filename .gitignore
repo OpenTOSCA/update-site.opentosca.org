@@ -1,4 +1,4 @@
 .idea/
 *.iml
-#!target/repository/
-#target/
+target/*
+!target/repository/
