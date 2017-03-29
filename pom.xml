@@ -213,7 +213,7 @@
                                 </artifact>
                                 <!--
                                 ===============================================
-                                === TODO: (Michael W.) Are those libraries required?
+                                === Misc
                                 ===============================================
                                 -->
                                 <artifact>
@@ -237,6 +237,18 @@
                                 <artifact>
                                     <id>com.springsource.util:com.springsource.util.parser.manifest:2.0.0.RELEASE</id>
                                 </artifact>
+                                <artifacts>
+                                    <id>com.predic8:soa-model-core:1.6.0</id>
+                                </artifacts>
+                                <artifacts>
+                                    <id>org.codehaus.groovy:groovy:2.4.10</id>
+                                </artifacts>
+                                <artifacts>
+                                    <id>org.codehaus.groovy:groovy-xml:2.4.10</id>
+                                </artifacts>
+                                <artifacts>
+                                    <id>org.codehaus.groovy:groovy-json:2.4.10</id>
+                                </artifacts>
                             </artifacts>
                         </configuration>
                     </execution>
