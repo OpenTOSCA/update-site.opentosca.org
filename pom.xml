@@ -225,6 +225,12 @@
                                 <artifact>
                                     <id>com.sun.jersey.contribs:jersey-multipart:1.19.3</id>
                                 </artifact>
+                                <artifact>
+                                    <id>org.apache.james:apache-mime4j-core:0.8.0</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.james:apache-mime4j-dom:0.8.0</id>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
