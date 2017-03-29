@@ -69,7 +69,7 @@
                                     <id>commons-lang:commons-lang:2.6</id>
                                 </artifact>
                                 <artifact>
-                                    <id>commons-io:commons-io:2.2</id>
+                                    <id>commons-io:commons-io:2.4</id>
                                 </artifact>
                                 <artifact>
                                     <id>commons-collections:commons-collections:3.2.2</id>
@@ -210,6 +210,17 @@
                                 </artifact>
                                 <artifact>
                                     <id>com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider:2.8.7</id>
+                                </artifact>
+                                <!--
+                                ===============================================
+                                === TODO: (Michael W.) Are those libraries required?
+                                ===============================================
+                                -->
+                                <artifact>
+                                    <id>wsdl4j:wsdl4j:1.6.2</id>
+                                </artifact>
+                                <artifact>
+                                    <id>com.sun.jersey:jersey-client:1.19.3</id>
                                 </artifact>
                             </artifacts>
                         </configuration>
