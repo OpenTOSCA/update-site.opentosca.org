@@ -231,6 +231,12 @@
                                 <artifact>
                                     <id>org.apache.james:apache-mime4j-dom:0.8.0</id>
                                 </artifact>
+                                <artifact>
+                                    <id>com.springsource.util:com.springsource.util.osgi:2.0.0.RELEASE</id>
+                                </artifact>
+                                <artifact>
+                                    <id>com.springsource.util:com.springsource.util.parser.manifest:2.0.0.RELEASE</id>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
@@ -285,9 +291,18 @@
         </plugins>
     </build>
 
+    <repositories>
+        <!-- https://mvnrepository.com/repos/springio-plugins-release -->
+        <repository>
+            <id>spring-plugins-repository</id>
+            <url>http://repo.spring.io/plugins-release</url>
+        </repository>
+    </repositories>
+
     <pluginRepositories>
+        <!-- http://repo.reficio.org/maven/org/reficio/p2-maven-plugin -->
         <pluginRepository>
-            <id>repo.reficio.org</id>
+            <id>reficio-public-repository</id>
             <url>http://repo.reficio.org/maven/</url>
         </pluginRepository>
     </pluginRepositories>
