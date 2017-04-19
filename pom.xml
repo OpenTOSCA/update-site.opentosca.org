@@ -32,240 +32,238 @@
                         </goals>
                         <configuration>
                             <artifacts>
-                                <!--
-                                ===============================================
-                                === Apache jclouds
-                                ===============================================
-                                -->
-                                <artifact>
-                                    <id>org.apache.jclouds:jclouds-core:2.0.1</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.jclouds:jclouds-blobstore:2.0.1</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.jclouds:jclouds-all:2.0.1</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.jclouds:jclouds-allcompute:2.0.1</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.jclouds.driver:jclouds-slf4j:2.0.1</id>
-                                </artifact>
-                                <!--
-                                ===============================================
-                                === Google
-                                ===============================================
-                                -->
-                                <artifact>
-                                    <id>com.google.guava:guava:21.0</id>
-                                </artifact>
-                                <!--
-                                ===============================================
-                                === Apache Commons
-                                ===============================================
-                                -->
-                                <artifact>
-                                    <id>commons-lang:commons-lang:2.6</id>
-                                </artifact>
-                                <artifact>
-                                    <id>commons-io:commons-io:2.4</id>
-                                </artifact>
-                                <artifact>
-                                    <id>commons-collections:commons-collections:3.2.2</id>
-                                </artifact>
-                                <artifact>
-                                    <id>commons-beanutils:commons-beanutils:1.8.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>commons-fileupload:commons-fileupload:1.3.2</id>
-                                </artifact>
-                                <artifact>
-                                    <id>commons-net:commons-net:3.6</id>
-                                </artifact>
-                                <artifact>
-                                    <id>commons-codec:commons-codec:1.9</id>
-                                </artifact>
-                                <artifact>
-                                    <id>commons-logging:commons-logging:1.2</id>
-                                </artifact>
-                                <artifact>
-                                    <id>commons-validator:commons-validator:1.6</id>
-                                </artifact>
-                                <artifact>
-                                    <id>commons-jxpath:commons-jxpath:1.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>commons-chain:commons-chain:1.2</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.commons:commons-exec:1.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.commons:commons-lang3:3.3.2</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.commons:commons-pool2:2.4.2</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.commons:commons-digester3:3.2</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.commons:commons-configuration2:2.1.1</id>
-                                </artifact>
-                                <!--
-                                ===============================================
-                                === Apache Camel
-                                ===============================================
-                                -->
-                                <artifact>
-                                    <id>org.apache.camel:camel-core:2.18.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-core-osgi:2.18.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-spring:2.18.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-cxf:2.18.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-cxf-transport:2.18.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-jms:2.18.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-http:2.18.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-jackson:2.18.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-jetty:2.18.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-jaxb:2.18.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-stream:2.18.3</id>
-                                </artifact>
-                                <!--
-                                ===============================================
-                                === Apache CXF
-                                ===============================================
-                                -->
-                                <artifact>
-                                    <id>org.apache.cxf:cxf-rt-frontend-jaxrs:2.7.10</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.cxf:cxf-rt-frontend-jaxws:2.7.10</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.cxf:cxf-rt-features-clustering:2.7.10</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.cxf:cxf-rt-bindings-soap:2.7.10</id>
-                                </artifact>
-                                <!--
-                                ===============================================
-                                === Apache HTTP Client
-                                ===============================================
-                                -->
-                                <artifact>
-                                    <id>org.apache.httpcomponents:httpcore:4.4.6</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.httpcomponents:httpclient:4.5.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.httpcomponents:httpcore-osgi:4.4.6</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.httpcomponents:httpclient-osgi:4.5.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.httpcomponents:httpclient-cache:4.5.3</id>
-                                </artifact>
-                                <!--
-                                ===============================================
-                                === Eclipse JPA
-                                ===============================================
-                                -->
-                                <artifact>
-                                    <id>org.eclipse.persistence:org.eclipse.persistence.jpa:2.4.2</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.eclipse.persistence:org.eclipse.persistence.osgi:2.4.2</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.eclipse.persistence:org.eclipse.persistence.equinox:2.4.2</id>
-                                </artifact>
-                                <!--
+                                <!--&lt;!&ndash;-->
+                                <!--===============================================-->
+                                <!--=== Apache jclouds-->
+                                <!--===============================================-->
+                                <!--&ndash;&gt;-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.jclouds:jclouds-core:2.0.1</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.jclouds:jclouds-blobstore:2.0.1</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.jclouds:jclouds-all:2.0.1</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.jclouds:jclouds-allcompute:2.0.1</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.jclouds.driver:jclouds-slf4j:2.0.1</id>-->
+                                <!--</artifact>-->
+                                <!--&lt;!&ndash;-->
+                                <!--===============================================-->
+                                <!--=== Google-->
+                                <!--===============================================-->
+                                <!--&ndash;&gt;-->
+                                <!--<artifact>-->
+                                    <!--<id>com.google.guava:guava:21.0</id>-->
+                                <!--</artifact>-->
+                                <!--&lt;!&ndash;-->
+                                <!--===============================================-->
+                                <!--=== Apache Commons-->
+                                <!--===============================================-->
+                                <!--&ndash;&gt;-->
+                                <!--<artifact>-->
+                                    <!--<id>commons-lang:commons-lang:2.6</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>commons-io:commons-io:2.4</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>commons-collections:commons-collections:3.2.2</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>commons-beanutils:commons-beanutils:1.8.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>commons-fileupload:commons-fileupload:1.3.2</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>commons-net:commons-net:3.6</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>commons-codec:commons-codec:1.9</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>commons-logging:commons-logging:1.2</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>commons-validator:commons-validator:1.6</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>commons-jxpath:commons-jxpath:1.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>commons-chain:commons-chain:1.2</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.commons:commons-exec:1.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.commons:commons-lang3:3.3.2</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.commons:commons-pool2:2.4.2</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.commons:commons-digester3:3.2</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.commons:commons-configuration2:2.1.1</id>-->
+                                <!--</artifact>-->
+                                <!--&lt;!&ndash;-->
+                                <!--===============================================-->
+                                <!--=== Apache Camel-->
+                                <!--===============================================-->
+                                <!--&ndash;&gt;-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.camel:camel-core:2.18.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.camel:camel-core-osgi:2.18.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.camel:camel-spring:2.18.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.camel:camel-cxf:2.18.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.camel:camel-cxf-transport:2.18.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.camel:camel-jms:2.18.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.camel:camel-http:2.18.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.camel:camel-jackson:2.18.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.camel:camel-jetty:2.18.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.camel:camel-jaxb:2.18.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.camel:camel-stream:2.18.3</id>-->
+                                <!--</artifact>-->
+                                <!--&lt;!&ndash;-->
+                                <!--===============================================-->
+                                <!--=== Apache CXF-->
+                                <!--===============================================-->
+                                <!--&ndash;&gt;-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.cxf:cxf-rt-frontend-jaxrs:2.7.10</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.cxf:cxf-rt-frontend-jaxws:2.7.10</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.cxf:cxf-rt-features-clustering:2.7.10</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.cxf:cxf-rt-bindings-soap:2.7.10</id>-->
+                                <!--</artifact>-->
+                                <!--&lt;!&ndash;-->
+                                <!--===============================================-->
+                                <!--=== Apache HTTP Client-->
+                                <!--===============================================-->
+                                <!--&ndash;&gt;-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.httpcomponents:httpcore:4.4.6</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.httpcomponents:httpclient:4.5.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.httpcomponents:httpcore-osgi:4.4.6</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.httpcomponents:httpclient-osgi:4.5.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.httpcomponents:httpclient-cache:4.5.3</id>-->
+                                <!--</artifact>-->
+                                <!--&lt;!&ndash;-->
+                                <!--===============================================-->
+                                <!--=== Eclipse JPA-->
+                                <!--===============================================-->
+                                <!--&ndash;&gt;-->
+                                <!--<artifact>-->
+                                    <!--<id>org.eclipse.persistence:org.eclipse.persistence.jpa:2.4.2</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.eclipse.persistence:org.eclipse.persistence.osgi:2.4.2</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.eclipse.persistence:org.eclipse.persistence.equinox:2.4.2</id>-->
+                                <!--</artifact>-->
+                                <!--&lt;!&ndash;-->
                                 ===============================================
                                 === FasterXML/jackson
                                 ===============================================
                                 -->
-                                <artifact>
-                                    <id>com.fasterxml.jackson.core:jackson-core:2.8.7</id>
+                                <!--<artifact>-->
+                                    <!--<id>com.fasterxml.jackson.core:jackson-core:2.8.7</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>com.fasterxml.jackson.core:jackson-databind:2.8.7</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>com.fasterxml.jackson.core:jackson-annotations:2.8.7</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>
+                                    <id>com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.5.0</id>
                                 </artifact>
                                 <artifact>
-                                    <id>com.fasterxml.jackson.core:jackson-databind:2.8.7</id>
+                                    <id>com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.5.0</id>
                                 </artifact>
                                 <artifact>
-                                    <id>com.fasterxml.jackson.core:jackson-annotations:2.8.7</id>
-                                </artifact>
-                                <artifact>
-                                    <id>com.fasterxml.jackson.jaxrs:jackson-jaxrs-base:2.8.7</id>
-                                </artifact>
-                                <artifact>
-                                    <id>com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider:2.8.7</id>
-                                </artifact>
-                                <artifact>
-                                    <id>com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider:2.8.7</id>
-                                </artifact>
-                                <artifact>
-                                    <id>com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider:2.8.7</id>
-                                </artifact>
-                                <!--
-                                ===============================================
-                                === Misc
-                                ===============================================
-                                -->
-                                <artifact>
-                                    <id>wsdl4j:wsdl4j:1.6.2</id>
-                                </artifact>
-                                <artifact>
-                                    <id>com.sun.jersey:jersey-client:1.19.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>com.sun.jersey.contribs:jersey-multipart:1.19.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.james:apache-mime4j-core:0.8.0</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.james:apache-mime4j-dom:0.8.0</id>
-                                </artifact>
+                                    <id>com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider:2.5.0</id>
+                                </artifact>-->
+                                <!--&lt;!&ndash;-->
+                                <!--===============================================-->
+                                <!--=== Misc-->
+                                <!--===============================================-->
+                                <!--&ndash;&gt;-->
+                                <!--<artifact>-->
+                                    <!--<id>wsdl4j:wsdl4j:1.6.2</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>com.sun.jersey:jersey-client:1.19.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>com.sun.jersey.contribs:jersey-multipart:1.19.3</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.james:apache-mime4j-core:0.8.0</id>-->
+                                <!--</artifact>-->
+                                <!--<artifact>-->
+                                    <!--<id>org.apache.james:apache-mime4j-dom:0.8.0</id>-->
+                                <!--</artifact>-->
                                 <artifact>
                                     <id>com.springsource.util:com.springsource.util.osgi:2.0.0.RELEASE</id>
                                 </artifact>
                                 <artifact>
                                     <id>com.springsource.util:com.springsource.util.parser.manifest:2.0.0.RELEASE</id>
                                 </artifact>
-                                <artifacts>
-                                    <id>com.predic8:soa-model-core:1.6.0</id>
-                                </artifacts>
-                                <artifacts>
-                                    <id>org.codehaus.groovy:groovy:2.4.10</id>
-                                </artifacts>
-                                <artifacts>
-                                    <id>org.codehaus.groovy:groovy-xml:2.4.10</id>
-                                </artifacts>
-                                <artifacts>
-                                    <id>org.codehaus.groovy:groovy-json:2.4.10</id>
-                                </artifacts>
+                                <!--<artifacts>-->
+                                    <!--&lt;!&ndash; TODO: Could find version 1.2.2 in a public Maven repository &ndash;&gt;-->
+                                    <!--<id>com.predic8:soa-model-core:1.2.2</id>-->
+                                <!--</artifacts>-->
+                                <!--<artifacts>-->
+                                    <!--<id>org.codehaus.groovy:groovy:2.4.10</id>-->
+                                <!--</artifacts>-->
+                                <!--<artifacts>-->
+                                    <!--<id>org.codehaus.groovy:groovy-xml:2.4.10</id>-->
+                                <!--</artifacts>-->
+                                <!--<artifacts>-->
+                                    <!--<id>org.codehaus.groovy:groovy-json:2.4.10</id>-->
+                                <!--</artifacts>-->
                             </artifacts>
                         </configuration>
                     </execution>
@@ -321,15 +319,20 @@
     </build>
 
     <repositories>
-        <!-- https://mvnrepository.com/repos/springio-plugins-release -->
+        <!-- Spring Plugin Repository: https://mvnrepository.com/repos/springio-plugins-release -->
         <repository>
             <id>spring-plugins-repository</id>
             <url>http://repo.spring.io/plugins-release</url>
         </repository>
+        <!-- Local Project Repository: ${project.basedir}/project-repository-->
+        <repository>
+            <id>project-repository</id>
+            <url>file://${project.basedir}/project-repository</url>
+        </repository>
     </repositories>
 
     <pluginRepositories>
-        <!-- http://repo.reficio.org/maven/org/reficio/p2-maven-plugin -->
+        <!-- P2 Maven Plugin: http://repo.reficio.org/maven/org/reficio/p2-maven-plugin -->
         <pluginRepository>
             <id>reficio-public-repository</id>
             <url>http://repo.reficio.org/maven/</url>
