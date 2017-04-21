@@ -48,6 +48,10 @@
                                     <id>org.apache.jclouds.driver:jclouds-slf4j:1.6.3</id>
                                     <source>true</source>
                                 </artifact>
+                                <artifact>
+                                    <id>org.apache.jclouds.api:filesystem:1.6.3</id>
+                                    <source>true</source>
+                                </artifact>
 
                                 <!--===============================================-->
                                 <!--=== Apache Camel                               -->
