@@ -135,12 +135,14 @@
                                 <!--<artifact>-->
                                     <!--<id>wsdl4j:wsdl4j:1.6.2</id>-->
                                 <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>com.sun.jersey:jersey-client:1.19.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>com.sun.jersey.contribs:jersey-multipart:1.19.3</id>-->
-                                <!--</artifact>-->
+                                <artifact>
+                                    <id>com.sun.jersey:jersey-client:1.17.1</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>com.sun.jersey.contribs:jersey-multipart:1.17.1</id>
+                                    <source>true</source>
+                                </artifact>
                                 <!--<artifact>-->
                                     <!--<id>org.apache.james:apache-mime4j-core:0.8.0</id>-->
                                 <!--</artifact>-->
