@@ -137,8 +137,7 @@
                                     <source>true</source>
                                 </artifact>
                                 <artifact>
-                                    <id>javax.xml.ws:jaxws-api:2.2.11</id>
-                                    <source>true</source>
+                                    <id>javax.xml.ws:javax.xml.ws:2.8.8</id>
                                 </artifact>
 
                             </artifacts>
