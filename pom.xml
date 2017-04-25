@@ -136,6 +136,14 @@
                                     <id>com.googlecode.json-simple:json-simple:1.1</id>
                                     <source>true</source>
                                 </artifact>
+                                <artifact>
+                                    <id>org.glassfish:javax.jws:3.0</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>javax.xml.ws:jaxws-api:2.2.11</id>
+                                    <source>true</source>
+                                </artifact>
 
                             </artifacts>
                         </configuration>
