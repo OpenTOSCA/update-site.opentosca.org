@@ -82,6 +82,50 @@
                                 </artifact>
 
                                 <!--===============================================-->
+                                <!--=== Apache CXF                                 -->
+                                <!--===============================================-->
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-api:2.7.3</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-core:2.7.3</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-databinding-jaxb:2.7.3</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-frontend-jaxrs:2.7.3</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-frontend-jaxws:2.7.3</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-frontend-simple:2.7.3</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-transports-http:2.7.3</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-transports-http-jetty:2.7.3</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-bindings-soap:2.7.3</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-bindings-xml:2.7.3</id>
+                                    <source>true</source>
+                                </artifact>
+
+                                <!--===============================================-->
                                 <!--=== Misc                                       -->
                                 <!--===============================================-->
                                 <artifacts>
