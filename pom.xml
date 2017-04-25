@@ -129,7 +129,7 @@
                                 <!--=== Misc                                       -->
                                 <!--===============================================-->
                                 <artifacts>
-                                    <!--TODO: Could find version 1.2.2 in a public Maven repository-->
+                                    <!--TODO: Could not find version 1.2.2 in a public Maven repository-->
                                     <id>com.predic8:soa-model-core:1.2.2</id>
                                 </artifacts>
                                 <artifact>
@@ -150,6 +150,10 @@
                                 </artifact>
                                 <artifact>
                                     <id>com.googlecode.json-simple:json-simple:1.1</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.aries.blueprint:org.apache.aries.blueprint:0.3.1</id>
                                     <source>true</source>
                                 </artifact>
 
