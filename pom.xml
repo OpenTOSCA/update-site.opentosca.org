@@ -56,85 +56,57 @@
                                 <!--===============================================-->
                                 <!--=== Apache Camel                               -->
                                 <!--===============================================-->
-                                <!--&ndash;&gt;-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.camel:camel-core:2.18.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.camel:camel-core-osgi:2.18.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.camel:camel-spring:2.18.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.camel:camel-cxf:2.18.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.camel:camel-cxf-transport:2.18.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.camel:camel-jms:2.18.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.camel:camel-http:2.18.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.camel:camel-jackson:2.18.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.camel:camel-jetty:2.18.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.camel:camel-jaxb:2.18.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.camel:camel-stream:2.18.3</id>-->
-                                <!--</artifact>-->
-
-                                <!--===============================================-->
-                                <!--=== Apache CXF                                 -->
-                                <!--===============================================-->
-                                <!--&ndash;&gt;-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.cxf:cxf-rt-frontend-jaxrs:2.7.10</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.cxf:cxf-rt-frontend-jaxws:2.7.10</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.cxf:cxf-rt-features-clustering:2.7.10</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.cxf:cxf-rt-bindings-soap:2.7.10</id>-->
-                                <!--</artifact>-->
-
-                                <!--===============================================-->
-                                <!--=== Apache HTTP Client                         -->
-                                <!--===============================================-->
-                                <!--&ndash;&gt;-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.httpcomponents:httpcore:4.4.6</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.httpcomponents:httpclient:4.5.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.httpcomponents:httpcore-osgi:4.4.6</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.httpcomponents:httpclient-osgi:4.5.3</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.httpcomponents:httpclient-cache:4.5.3</id>-->
-                                <!--</artifact>-->
+                                <artifact>
+                                    <id>org.apache.camel:camel-core:2.10.4</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-core-osgi:2.10.4</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-spring:2.10.4</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-cxf:2.10.4</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-cxf-transport:2.10.4</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-jms:2.10.4</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-http:2.10.4</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-jackson:2.10.4</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-jetty:2.10.4</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-jaxb:2.10.4</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-stream:2.10.4</id>
+                                    <source>true</source>
+                                </artifact>
 
                                 <!--===============================================-->
                                 <!--=== Misc                                       -->
                                 <!--===============================================-->
-                                <!--&ndash;&gt;-->
-                                <!--<artifact>-->
-                                    <!--<id>wsdl4j:wsdl4j:1.6.2</id>-->
-                                <!--</artifact>-->
+                                <artifacts>
+                                    <!--TODO: Could find version 1.2.2 in a public Maven repository-->
+                                    <id>com.predic8:soa-model-core:1.2.2</id>
+                                </artifacts>
                                 <artifact>
                                     <id>com.sun.jersey:jersey-client:1.17.1</id>
                                     <source>true</source>
@@ -143,12 +115,6 @@
                                     <id>com.sun.jersey.contribs:jersey-multipart:1.17.1</id>
                                     <source>true</source>
                                 </artifact>
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.james:apache-mime4j-core:0.8.0</id>-->
-                                <!--</artifact>-->
-                                <!--<artifact>-->
-                                    <!--<id>org.apache.james:apache-mime4j-dom:0.8.0</id>-->
-                                <!--</artifact>-->
                                 <artifact>
                                     <id>com.springsource.util:com.springsource.util.osgi:2.0.0.RELEASE</id>
                                     <source>true</source>
@@ -157,19 +123,7 @@
                                     <id>com.springsource.util:com.springsource.util.parser.manifest:2.0.0.RELEASE</id>
                                     <source>true</source>
                                 </artifact>
-                                <!--<artifacts>-->
-                                    <!--&lt;!&ndash; TODO: Could find version 1.2.2 in a public Maven repository &ndash;&gt;-->
-                                    <!--<id>com.predic8:soa-model-core:1.2.2</id>-->
-                                <!--</artifacts>-->
-                                <!--<artifacts>-->
-                                    <!--<id>org.codehaus.groovy:groovy:2.4.10</id>-->
-                                <!--</artifacts>-->
-                                <!--<artifacts>-->
-                                    <!--<id>org.codehaus.groovy:groovy-xml:2.4.10</id>-->
-                                <!--</artifacts>-->
-                                <!--<artifacts>-->
-                                    <!--<id>org.codehaus.groovy:groovy-json:2.4.10</id>-->
-                                <!--</artifacts>-->
+
                             </artifacts>
                         </configuration>
                     </execution>
