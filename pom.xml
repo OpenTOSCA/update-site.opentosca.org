@@ -153,8 +153,10 @@
                                     <source>true</source>
                                 </artifact>
                                 <artifact>
+                                    <id>org.apache.aries.blueprint:org.apache.aries.blueprint:0.3</id>
+                                </artifact>
+                                <artifact>
                                     <id>org.apache.aries.blueprint:org.apache.aries.blueprint:0.3.1</id>
-                                    <source>true</source>
                                 </artifact>
 
                             </artifacts>
