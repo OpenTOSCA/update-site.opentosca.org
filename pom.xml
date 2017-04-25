@@ -65,6 +65,10 @@
                                     <source>true</source>
                                 </artifact>
                                 <artifact>
+                                    <id>org.apache.camel:camel-restlet:2.10.4</id>
+                                    <source>true</source>
+                                </artifact>
+                                <!--<artifact>
                                     <id>org.apache.camel:camel-spring:2.10.4</id>
                                 </artifact>
                                 <artifact>
@@ -98,7 +102,7 @@
                                 <artifact>
                                     <id>org.apache.camel:camel-stream:2.10.4</id>
                                     <source>true</source>
-                                </artifact>
+                                </artifact>-->
 
                                 <!--===============================================-->
                                 <!--=== Misc                                       -->
@@ -121,6 +125,10 @@
                                 </artifact>
                                 <artifact>
                                     <id>com.springsource.util:com.springsource.util.parser.manifest:2.0.0.RELEASE</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
+                                    <id>com.googlecode.json-simple:json-simple:1.1</id>
                                     <source>true</source>
                                 </artifact>
 
