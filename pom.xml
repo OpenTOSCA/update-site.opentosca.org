@@ -68,9 +68,6 @@
                                     <id>org.apache.camel:camel-restlet:2.10.4</id>
                                     <source>true</source>
                                 </artifact>
-                                <!--<artifact>
-                                    <id>org.apache.camel:camel-spring:2.10.4</id>
-                                </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-cxf:2.10.4</id>
                                     <source>true</source>
@@ -80,29 +77,9 @@
                                     <source>true</source>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.camel:camel-jms:2.10.4</id>
-                                    <source>true</source>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-http:2.10.4</id>
-                                    <source>true</source>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-jackson:2.10.4</id>
-                                    <source>true</source>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-jetty:2.10.4</id>
-                                    <source>true</source>
-                                </artifact>
-                                <artifact>
                                     <id>org.apache.camel:camel-jaxb:2.10.4</id>
                                     <source>true</source>
                                 </artifact>
-                                <artifact>
-                                    <id>org.apache.camel:camel-stream:2.10.4</id>
-                                    <source>true</source>
-                                </artifact>-->
 
                                 <!--===============================================-->
                                 <!--=== Misc                                       -->
