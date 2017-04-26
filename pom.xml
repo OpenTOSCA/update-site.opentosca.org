@@ -5,7 +5,7 @@
 
     <groupId>org.opentosca</groupId>
     <artifactId>update-site.opentosca.org</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.0</version>
 
     <packaging>pom</packaging>
 
@@ -85,31 +85,31 @@
                                 <!--=== Apache CXF                                 -->
                                 <!--===============================================-->
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-core:3.1.11</id>
+                                    <id>org.apache.cxf:cxf-core:3.1.10</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-databinding-jaxb:3.1.11</id>
+                                    <id>org.apache.cxf:cxf-rt-databinding-jaxb:3.1.10</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-frontend-jaxrs:3.1.11</id>
+                                    <id>org.apache.cxf:cxf-rt-frontend-jaxrs:3.1.10</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-frontend-jaxws:3.1.11</id>
+                                    <id>org.apache.cxf:cxf-rt-frontend-jaxws:3.1.10</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-frontend-simple:3.1.11</id>
+                                    <id>org.apache.cxf:cxf-rt-frontend-simple:3.1.10</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-transports-http:3.1.11</id>
+                                    <id>org.apache.cxf:cxf-rt-transports-http:3.1.10</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-transports-http-jetty:3.1.11</id>
+                                    <id>org.apache.cxf:cxf-rt-transports-http-jetty:3.1.10</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-bindings-soap:3.1.11</id>
+                                    <id>org.apache.cxf:cxf-rt-bindings-soap:3.1.10</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-bindings-xml:3.1.11</id>
+                                    <id>org.apache.cxf:cxf-rt-bindings-xml:3.1.10</id>
                                 </artifact>
 
                                 <!--===============================================-->
@@ -164,7 +164,7 @@
                         </goals>
                         <configuration>
                             <target name="Copy P2 Repository">
-                                <delete includeEmptyDirs="true" failonerror="false">
+                                <delete includeEmptyDirs="true">
                                     <fileset dir="${project.basedir}/docs/${project.version}"/>
                                 </delete>
                                 <mkdir dir="${project.basedir}/docs/${project.version}"/>
