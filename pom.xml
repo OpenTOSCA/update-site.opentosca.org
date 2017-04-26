@@ -80,6 +80,34 @@
                                 <artifact>
                                     <id>org.apache.camel:camel-jetty:2.18.3</id>
                                 </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-spring:2.18.3</id>
+                                    <transitive>false</transitive>
+                                </artifact>
+                                <artifact>
+                                    <id>org.springframework:spring-core:4.3.7.RELEASE</id>
+                                    <override>true</override>
+                                </artifact>
+                                <artifact>
+                                    <id>org.springframework:spring-aop:4.3.7.RELEASE</id>
+                                    <override>true</override>
+                                </artifact>
+                                <artifact>
+                                    <id>org.springframework:spring-context:4.3.7.RELEASE</id>
+                                    <override>true</override>
+                                </artifact>
+                                <artifact>
+                                    <id>org.springframework:spring-beans:4.3.7.RELEASE</id>
+                                    <override>true</override>
+                                </artifact>
+                                <artifact>
+                                    <id>org.springframework:spring-expression:4.3.7.RELEASE</id>
+                                    <override>true</override>
+                                </artifact>
+                                <artifact>
+                                    <id>org.springframework:spring-tx:4.3.7.RELEASE</id>
+                                    <override>true</override>
+                                </artifact>
 
                                 <!--===============================================-->
                                 <!--=== Apache CXF                                 -->
