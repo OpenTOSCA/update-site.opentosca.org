@@ -74,6 +74,12 @@
                                 <artifact>
                                     <id>org.apache.camel:camel-jaxb:2.10.4</id>
                                 </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-http:2.10.4</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-jetty:2.10.4</id>
+                                </artifact>
 
                                 <!--===============================================-->
                                 <!--=== Apache CXF                                 -->
@@ -112,10 +118,6 @@
                                 <!--===============================================-->
                                 <!--=== Misc                                       -->
                                 <!--===============================================-->
-                                <artifacts>
-                                    <!--TODO: Could not find version 1.2.2 in a public Maven repository-->
-                                    <id>com.predic8:soa-model-core:1.2.2</id>
-                                </artifacts>
                                 <artifact>
                                     <id>com.sun.jersey:jersey-client:1.17.1</id>
                                     <source>true</source>
@@ -137,8 +139,13 @@
                                     <source>true</source>
                                 </artifact>
                                 <artifact>
+                                    <!-- From local repository since we could not find a suitable version publicly -->
                                     <id>javax.xml.ws:javax.xml.ws:2.8.8</id>
                                 </artifact>
+                                <artifacts>
+                                    <!-- From local repository since we could not find version 1.2.2 in a public repository -->
+                                    <id>com.predic8:soa-model-core:1.2.2</id>
+                                </artifacts>
 
                             </artifacts>
                         </configuration>
