@@ -142,6 +142,10 @@
                                     </instructions>
                                 </artifact>
 
+                                <artifact>
+                                    <id>org.springframework:spring-beans:4.3.7</id>
+                                </artifact>
+
                                 <!--===============================================-->
                                 <!--=== Apache CXF                                 -->
                                 <!--===============================================-->
