@@ -119,6 +119,10 @@
                                 <!--=== Misc                                       -->
                                 <!--===============================================-->
                                 <artifact>
+                                    <id>javax.servlet:servlet-api:2.5</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
                                     <id>com.sun.jersey:jersey-client:1.17.1</id>
                                     <source>true</source>
                                 </artifact>
