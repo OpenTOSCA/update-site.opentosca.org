@@ -5,7 +5,7 @@
 
     <groupId>org.opentosca</groupId>
     <artifactId>update-site.opentosca.org</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
 
     <packaging>pom</packaging>
 
@@ -57,71 +57,64 @@
                                 <!--=== Apache Camel                               -->
                                 <!--===============================================-->
                                 <artifact>
-                                    <id>org.apache.camel:camel-core:2.10.4</id>
+                                    <id>org.apache.camel:camel-core:2.18.3</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.camel:camel-core-osgi:2.10.4</id>
+                                    <id>org.apache.camel:camel-core-osgi:2.18.3</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.camel:camel-restlet:2.10.4</id>
+                                    <id>org.apache.camel:camel-restlet:2.18.3</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.camel:camel-cxf:2.10.4</id>
+                                    <id>org.apache.camel:camel-cxf:2.18.3</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.camel:camel-cxf-transport:2.10.4</id>
+                                    <id>org.apache.camel:camel-cxf-transport:2.18.3</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.camel:camel-jaxb:2.10.4</id>
+                                    <id>org.apache.camel:camel-jaxb:2.18.3</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.camel:camel-http:2.10.4</id>
+                                    <id>org.apache.camel:camel-http:2.18.3</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.camel:camel-jetty:2.10.4</id>
+                                    <id>org.apache.camel:camel-jetty:2.18.3</id>
                                 </artifact>
 
                                 <!--===============================================-->
                                 <!--=== Apache CXF                                 -->
                                 <!--===============================================-->
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-api:2.7.3</id>
+                                    <id>org.apache.cxf:cxf-core:3.1.11</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-core:2.7.3</id>
+                                    <id>org.apache.cxf:cxf-rt-databinding-jaxb:3.1.11</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-databinding-jaxb:2.7.3</id>
+                                    <id>org.apache.cxf:cxf-rt-frontend-jaxrs:3.1.11</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-frontend-jaxrs:2.7.3</id>
+                                    <id>org.apache.cxf:cxf-rt-frontend-jaxws:3.1.11</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-frontend-jaxws:2.7.3</id>
+                                    <id>org.apache.cxf:cxf-rt-frontend-simple:3.1.11</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-frontend-simple:2.7.3</id>
+                                    <id>org.apache.cxf:cxf-rt-transports-http:3.1.11</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-transports-http:2.7.3</id>
+                                    <id>org.apache.cxf:cxf-rt-transports-http-jetty:3.1.11</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-transports-http-jetty:2.7.3</id>
+                                    <id>org.apache.cxf:cxf-rt-bindings-soap:3.1.11</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.apache.cxf:cxf-rt-bindings-soap:2.7.3</id>
-                                </artifact>
-                                <artifact>
-                                    <id>org.apache.cxf:cxf-rt-bindings-xml:2.7.3</id>
+                                    <id>org.apache.cxf:cxf-rt-bindings-xml:3.1.11</id>
                                 </artifact>
 
                                 <!--===============================================-->
                                 <!--=== Misc                                       -->
                                 <!--===============================================-->
-                                <artifact>
-                                    <id>javax.servlet:servlet-api:2.5</id>
-                                    <source>true</source>
-                                </artifact>
                                 <artifact>
                                     <id>com.sun.jersey:jersey-client:1.17.1</id>
                                     <source>true</source>
@@ -171,7 +164,7 @@
                         </goals>
                         <configuration>
                             <target name="Copy P2 Repository">
-                                <delete includeEmptyDirs="true">
+                                <delete includeEmptyDirs="true" failonerror="false">
                                     <fileset dir="${project.basedir}/docs/${project.version}"/>
                                 </delete>
                                 <mkdir dir="${project.basedir}/docs/${project.version}"/>
