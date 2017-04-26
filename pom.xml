@@ -83,23 +83,28 @@
                                 <artifact>
                                     <id>org.apache.camel:camel-spring:2.18.3</id>
                                 </artifact>
+
+                                <!--================================================-->
+                                <!--=== Spring OSGi Bundles                         -->
+                                <!--=== http://stackoverflow.com/a/29427965/7065173 -->
+                                <!--================================================-->
                                 <artifact>
-                                    <id>org.springframework:spring-core:3.1.4.RELEASE</id>
+                                    <id>org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-core:4.3.7.RELEASE_1</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.springframework:spring-aop:3.1.4.RELEASE</id>
+                                    <id>org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-aop:4.3.7.RELEASE_1</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.springframework:spring-context:3.1.4.RELEASE</id>
+                                    <id>org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-context:4.3.7.RELEASE_1</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.springframework:spring-beans:3.1.4.RELEASE</id>
+                                    <id>org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-beans:4.3.7.RELEASE_1</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.springframework:spring-expression:3.1.4.RELEASE</id>
+                                    <id>org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-expression:4.3.7.RELEASE_1</id>
                                 </artifact>
                                 <artifact>
-                                    <id>org.springframework:spring-tx:3.1.4.RELEASE</id>
+                                    <id>org.apache.servicemix.bundles:org.apache.servicemix.bundles.spring-tx:4.3.7.RELEASE_1</id>
                                 </artifact>
 
                                 <!--===============================================-->
