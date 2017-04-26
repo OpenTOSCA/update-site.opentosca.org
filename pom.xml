@@ -83,30 +83,63 @@
                                 <artifact>
                                     <id>org.apache.camel:camel-spring:2.18.3</id>
                                     <transitive>false</transitive>
+                                    <excludes>
+                                        <exclude>org.springframework.*</exclude>
+                                    </excludes>
                                 </artifact>
                                 <artifact>
                                     <id>org.springframework:spring-core:4.3.7.RELEASE</id>
                                     <override>true</override>
+                                    <singleton>false</singleton>
+                                    <instructions>
+                                        <Import-Package>*;resolution:=optional</Import-Package>
+                                        <Export-Package>*</Export-Package>
+                                    </instructions>
                                 </artifact>
                                 <artifact>
                                     <id>org.springframework:spring-aop:4.3.7.RELEASE</id>
                                     <override>true</override>
+                                    <singleton>false</singleton>
+                                    <instructions>
+                                        <Import-Package>*;resolution:=optional</Import-Package>
+                                        <Export-Package>*</Export-Package>
+                                    </instructions>
                                 </artifact>
                                 <artifact>
                                     <id>org.springframework:spring-context:4.3.7.RELEASE</id>
                                     <override>true</override>
+                                    <singleton>false</singleton>
+                                    <instructions>
+                                        <Import-Package>*;resolution:=optional</Import-Package>
+                                        <Export-Package>*</Export-Package>
+                                    </instructions>
                                 </artifact>
                                 <artifact>
                                     <id>org.springframework:spring-beans:4.3.7.RELEASE</id>
                                     <override>true</override>
+                                    <singleton>false</singleton>
+                                    <instructions>
+                                        <Import-Package>*;resolution:=optional</Import-Package>
+                                        <Export-Package>*</Export-Package>
+                                    </instructions>
                                 </artifact>
                                 <artifact>
                                     <id>org.springframework:spring-expression:4.3.7.RELEASE</id>
                                     <override>true</override>
+                                    <singleton>false</singleton>
+                                    <instructions>
+                                        <Import-Package>*;resolution:=optional</Import-Package>
+                                        <Export-Package>*</Export-Package>
+                                    </instructions>
                                 </artifact>
                                 <artifact>
                                     <id>org.springframework:spring-tx:4.3.7.RELEASE</id>
                                     <override>true</override>
+                                    <singleton>false</singleton>
+                                    <instructions>
+                                        <Import-Package>*;resolution:=optional</Import-Package>
+                                        <Export-Package>*</Export-Package>
+                                    </instructions>
                                 </artifact>
 
                                 <!--===============================================-->
