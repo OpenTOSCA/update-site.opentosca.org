@@ -203,10 +203,6 @@
                                     <id>org.apache.aries.blueprint:org.apache.aries.blueprint.core:1.4.4</id>
                                     <source>true</source>
                                 </artifacts>
-                                <artifacts>
-                                    <id>org.apache.ws.commons.schema:XmlSchema:1.4.7</id>
-                                    <source>true</source>
-                                </artifacts>
 
                             </artifacts>
                         </configuration>
