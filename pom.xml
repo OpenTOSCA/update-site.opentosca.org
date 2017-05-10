@@ -82,39 +82,30 @@
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-restlet:2.18.3</id>
-                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-cxf:2.18.3</id>
-                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-cxf-transport:2.18.3</id>
-                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-jaxb:2.18.3</id>
-                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-http:2.18.3</id>
-                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-jetty:2.18.3</id>
-                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-spring:2.18.3</id>
-                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-stream:2.18.3</id>
-                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-blueprint:2.18.3</id>
-                                    <source>true</source>
                                 </artifact>
 
                                 <!--================================================-->
