@@ -74,36 +74,47 @@
                                 <!--===============================================-->
                                 <artifact>
                                     <id>org.apache.camel:camel-core:2.18.3</id>
+                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-core-osgi:2.18.3</id>
+                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-restlet:2.18.3</id>
+                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-cxf:2.18.3</id>
+                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-cxf-transport:2.18.3</id>
+                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-jaxb:2.18.3</id>
+                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-http:2.18.3</id>
+                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-jetty:2.18.3</id>
+                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-spring:2.18.3</id>
+                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-stream:2.18.3</id>
+                                    <source>true</source>
                                 </artifact>
                                 <artifact>
                                     <id>org.apache.camel:camel-blueprint:2.18.3</id>
+                                    <source>true</source>
                                 </artifact>
 
                                 <!--================================================-->
@@ -195,14 +206,18 @@
                                     <id>com.googlecode.json-simple:json-simple:1.1</id>
                                     <source>true</source>
                                 </artifact>
-                                <artifacts>
+                                <artifact>
                                     <!-- From local repository since we could not find version 1.2.2 in a public repository -->
                                     <id>com.predic8:soa-model-core:1.2.2</id>
-                                </artifacts>
-                                <artifacts>
+                                </artifact>
+                                <artifact>
                                     <id>org.apache.aries.blueprint:org.apache.aries.blueprint.core:1.4.4</id>
                                     <source>true</source>
-                                </artifacts>
+                                </artifact>
+                                <artifact>
+                                    <id>org.codehaus.groovy:groovy-all:1.8.6</id>
+                                    <source>true</source>
+                                </artifact>
 
                             </artifacts>
                         </configuration>
