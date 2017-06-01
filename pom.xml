@@ -216,10 +216,6 @@
                                     <id>org.codehaus.groovy:groovy-all:1.8.6</id>
                                     <source>true</source>
                                 </artifact>
-                                <artifact>
-                                    <id>io.swagger:swagger-jersey2-jaxrs:1.5.13</id>
-                                    <source>true</source>
-                                </artifact>
 
                             </artifacts>
                         </configuration>
