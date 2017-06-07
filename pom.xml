@@ -220,6 +220,10 @@
                                     <id>io.swagger:swagger-jersey2-jaxrs:1.5.13</id>
                                     <source>true</source>
                                 </artifact>
+                                <artifact>
+                                    <id>dk.nykredit.jackson.dataformat:jackson-dataformat-hal:1.0.1</id>
+                                    <source>true</source>
+                                </artifact>
 
                             </artifacts>
                         </configuration>
