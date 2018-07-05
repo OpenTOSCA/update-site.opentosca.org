@@ -107,6 +107,9 @@
                                 <artifact>
                                     <id>org.apache.camel:camel-blueprint:2.18.3</id>
                                 </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-mqtt:2.18.3</id>
+                                </artifact>
 
                                 <!--================================================-->
                                 <!--=== Spring OSGi Bundles                         -->
