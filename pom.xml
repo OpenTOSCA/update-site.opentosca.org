@@ -232,7 +232,7 @@
                                 <!--=== Moquette MQTT                              -->
                                 <!--===============================================-->
                                 <artifact>
-                                    <id>io.moquette:moquette-broker:0.10</id>
+                                    <id>io.moquette:moquette-broker:0.11</id>
                                     <source>true</source>
                                 </artifact>
                             </artifacts>
