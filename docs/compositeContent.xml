@@ -3,9 +3,10 @@
 <repository name="OpenTOSCA - Third-Party Repository"
             type="org.eclipse.equinox.internal.p2.metadata.repository.CompositeMetadataRepository" version="1.0.1">
     <properties size="1">
-        <property name="p2.timestamp" value="1493196754000"/>
+        <property name="p2.timestamp" value="1544790632000"/>
     </properties>
-    <children size="1">
+    <children size="2">
         <child location="1.0.0/"/>
+        <child location="2.0.0/"/>
     </children>
 </repository>
