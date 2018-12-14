@@ -33,92 +33,80 @@
                             <goal>site</goal>
                         </goals>
                         <configuration>
-                            <featureDefinitions>
-                                <feature>
-                                    <id>camel</id>
-                                    <version>${camel.version}</version>
-                                    <label>Apache Camel</label>
-                                    <providerName>${project.groupId}.camel</providerName>
-                                    <description>Apache Camel</description>
-                                    <generateSourceFeature>true</generateSourceFeature>
-                                    <artifacts>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-core:${camel.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-core-osgi:${camel.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-restlet:${camel.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-cxf:${camel.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-cxf-transport:${camel.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-jaxb:${camel.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-http:${camel.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-jetty:${camel.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-spring:${camel.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-stream:${camel.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-blueprint:${camel.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.camel:camel-mqtt:${camel.version}</id>
-                                        </artifact>
-                                    </artifacts>
-                                </feature>
-                                <feature>
-                                    <id>cxf</id>
-                                    <version>${cxf.version}</version>
-                                    <label>Apache CXF</label>
-                                    <providerName>${project.groupId}.cxf</providerName>
-                                    <description>Apache CXF</description>
-                                    <generateSourceFeature>true</generateSourceFeature>
-                                    <artifacts>
-                                        <artifact>
-                                            <id>org.apache.cxf:cxf-core:${cxf.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.cxf:cxf-rt-databinding-jaxb:${cxf.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.cxf:cxf-rt-frontend-jaxrs:${cxf.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.cxf:cxf-rt-frontend-jaxws:${cxf.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.cxf:cxf-rt-frontend-simple:${cxf.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.cxf:cxf-rt-transports-http:${cxf.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.cxf:cxf-rt-transports-http-jetty:${cxf.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.cxf:cxf-rt-bindings-soap:${cxf.version}</id>
-                                        </artifact>
-                                        <artifact>
-                                            <id>org.apache.cxf:cxf-rt-bindings-xml:${cxf.version}</id>
-                                        </artifact>
-                                    </artifacts>
-                                </feature>
-                            </featureDefinitions>
                             <artifacts>
+                                <!--
+                                  > ===========================================
+                                  > Apache Camel
+                                  > ===========================================
+                                -->
+                                <artifact>
+                                    <id>org.apache.camel:camel-core:${camel.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-core-osgi:${camel.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-restlet:${camel.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-cxf:${camel.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-cxf-transport:${camel.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-jaxb:${camel.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-http:${camel.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-jetty:${camel.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-spring:${camel.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-stream:${camel.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-blueprint:${camel.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.camel:camel-mqtt:${camel.version}</id>
+                                </artifact>
+                                <!--
+                                  > ===========================================
+                                  > Apache CXF
+                                  > ===========================================
+                                -->
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-core:${cxf.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-databinding-jaxb:${cxf.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-frontend-jaxrs:${cxf.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-frontend-jaxws:${cxf.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-frontend-simple:${cxf.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-transports-http:${cxf.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-transports-http-jetty:${cxf.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-bindings-soap:${cxf.version}</id>
+                                </artifact>
+                                <artifact>
+                                    <id>org.apache.cxf:cxf-rt-bindings-xml:${cxf.version}</id>
+                                </artifact>
                                 <!--
                                   > ===========================================
                                   > Template
@@ -164,6 +152,10 @@
                                     <id>com.predic8:soa-model-core:1.2.2</id>
                                 </artifact>
                                 <artifact>
+                                    <id>org.apache.aries.blueprint:org.apache.aries.blueprint.core:1.4.4</id>
+                                    <source>true</source>
+                                </artifact>
+                                <artifact>
                                     <id>org.codehaus.groovy:groovy-all:1.8.6</id>
                                     <source>true</source>
                                 </artifact>
@@ -175,13 +167,17 @@
                                     <id>io.moquette:moquette-broker:0.11</id>
                                     <source>true</source>
                                 </artifact>
+                                <artifact>
+                                    <id>dk.nykredit.jackson.dataformat:jackson-dataformat-hal:1.0.1</id>
+                                    <source>true</source>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
             <!--
-            maven-antrun-plugin: Copies the built repository into the `docs` directory.
+              > maven-antrun-plugin: Copies the built repository into the `docs` directory.
             -->
             <plugin>
                 <artifactId>maven-antrun-plugin</artifactId>
@@ -208,8 +204,8 @@
                 </executions>
             </plugin>
             <!--
-            jetty-maven-plugin: For local testing purposes. You can run `mvn jetty:run` in order
-            to serve the P2 repository on http://localhost:9000/repository.
+              > jetty-maven-plugin: For local testing purposes. You can run `mvn jetty:run` in order
+              > to serve the P2 repository on http://localhost:9000/repository.
             -->
             <plugin>
                 <groupId>org.eclipse.jetty</groupId>
