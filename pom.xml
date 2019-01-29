@@ -171,6 +171,10 @@
                                     <id>dk.nykredit.jackson.dataformat:jackson-dataformat-hal:1.0.1</id>
                                     <source>true</source>
                                 </artifact>
+                                <artifact>
+                                    <id>org.apache.commons:commons-configuration2:2.4</id>
+                                    <source>true</source>
+                                </artifact>
                             </artifacts>
                         </configuration>
                     </execution>
